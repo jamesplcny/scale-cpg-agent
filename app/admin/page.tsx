@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { createServerClient } from "@/lib/supabase";
+import { createServerClient } from "@/lib/supabase-server";
 import { revalidatePath } from "next/cache";
 import ActiveToggle from "./active-toggle";
 
